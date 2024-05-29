@@ -9,7 +9,7 @@ export const FormHero = styled.form`
   display: flex;
   align-items: center;
 
-  ::before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,6 +29,8 @@ export const FormHero = styled.form`
 export const ContainerHero = styled.div`
   position: relative;
   color: #eee;
+  margin: 0 auto;
+  max-width: 1000px;
 `
 
 export const HeroTitle = styled.h2`

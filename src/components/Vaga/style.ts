@@ -8,7 +8,7 @@ export const ListaVaga = styled.li`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-  ::hover {
+  &:hover {
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
   }
@@ -32,7 +32,7 @@ export const VagaLink = styled.a`
   border-radius: 8px;
   text-align: center;
 
-  :hover {
+  &:hover {
     border-color: var(--cor-principal);
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
